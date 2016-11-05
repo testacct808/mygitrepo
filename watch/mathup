@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# This is a info about the script it does sq root of a number.
 [ $# -ne 1 ] && {
   echo 'Usage: sqrt number'
   exit 1
