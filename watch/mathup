@@ -3,6 +3,7 @@
 # This comment is for dev only dev users can only use number 5 thru 15
 [ $# -ne 1 ] && {
   echo 'Usage: sqrt number'
+# This exits with 1 if errors
   exit 1
 } || {
    echo -e "sqrt($1)\nquit\n" | bc -q -i | head -2 | tail -1
