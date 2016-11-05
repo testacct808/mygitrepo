@@ -1,5 +1,6 @@
 #!/bin/bash
 # This is a info for the script it does sq root of a number.
+# This comment is for dev only dev users can only use number 5 thru 15
 [ $# -ne 1 ] && {
   echo 'Usage: sqrt number'
   exit 1
